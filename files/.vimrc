@@ -9,7 +9,8 @@ set shiftwidth=2                       " (auto)indent two spaces
 set autoindent
 
 " NERDTree
-map <leader>nt :NERDTree<cr>
+map <leader>t :NERDTreeToggle<CR>
+map <leader>T :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
 
 " CtrlP
@@ -35,3 +36,6 @@ map <leader>s :silent! %s/\s\+$//<cr>
 
 " show line number
 set nu
+
+" git
+command! blame :!git blame %
