@@ -38,4 +38,4 @@ map <leader>s :silent! %s/\s\+$//<cr>
 set nu
 
 " git
-command! blame :!git blame %
+command! Blame :!git blame %
