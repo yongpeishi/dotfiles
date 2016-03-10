@@ -29,3 +29,11 @@ if [[ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]]; then
 else
   echo "Ain't got no chruby"
 fi
+
+# git-completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
+fi
+
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='\u \w$(__git_ps1)\$ '
