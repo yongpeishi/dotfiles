@@ -36,4 +36,5 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\u \w$(__git_ps1)\$ '
+export PS1='\u \w\[\033[32m\]$(__git_ps1)\[\033[00m\] $ '
+
