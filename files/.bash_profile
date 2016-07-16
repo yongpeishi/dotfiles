@@ -37,4 +37,3 @@ fi
 
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\u \w\[\033[32m\]$(__git_ps1)\[\033[00m\] $ '
-
