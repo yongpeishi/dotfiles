@@ -2,7 +2,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 export EDITOR=vim
 
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias stree='open -a SourceTree .'
+alias emacs='open -a /Applications/Emacs.app $1'
 
 # sublime symlink
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
