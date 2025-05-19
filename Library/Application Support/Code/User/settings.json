@@ -1,0 +1,21 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+
+    "editor.fontSize": 11,
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.tree.indent": 16,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/*.{png,jpg,jpeg,gif,webp}": true,
+    }
+}
