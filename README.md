@@ -24,9 +24,13 @@ Outside the dotfiles, here's other misc when setting up new computer.
 
 **VSCode** extensions:
 ```
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-github.copilot
-github.copilot-chat
-vscodevim.vim
+// code --list-extensions | xargs -L 1 echo code --install-extension
+
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension editorconfig.editorconfig
+code --install-extension esbenp.prettier-vscode
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension vscodevim.vim
+code --install-extension vue.volar
 ```
