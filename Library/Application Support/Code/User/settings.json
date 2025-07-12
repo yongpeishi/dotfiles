@@ -29,5 +29,9 @@
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  }
+  },
+  "workbench.activityBar.location": "top",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "editor.suggest.localityBonus": true
 }
